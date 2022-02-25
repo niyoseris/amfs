@@ -22,7 +22,7 @@ let don = '';
 rssList = ["https://www.kibrisgazetesi.com/rss", "https://www.yeniduzen.com/rss", "https://cyprus-mail.com/feed/", "http://www.detaykibris.com/rss"];
 
 for (r of rssList){
-    //bak(r);
+    bak(r);
 
 }
 
