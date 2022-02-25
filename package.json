@@ -4,7 +4,6 @@
   "description": "amfs",
   "main": "r.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node r.js"
   },
   "repository": {
@@ -16,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/niyotreus/amfs/issues"
   },
-  "homepage": "https://github.com/niyotreus/amfs#readme"
+  "homepage": "https://github.com/niyotreus/amfs#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "rss-parser": "^3.12.0",
+    "striptags": "^3.2.0",
+    "utf8": "^3.0.0"
+  }
 }
