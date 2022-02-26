@@ -1,1 +1,1 @@
-"web:node r.js"
+web: node r.js
