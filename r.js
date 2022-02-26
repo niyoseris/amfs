@@ -20,7 +20,7 @@ let h = new haberci();
 
 let don = '';
 
-//rssList = ["https://www.kibrisgazetesi.com/rss", "https://www.yeniduzen.com/rss", "https://cyprus-mail.com/feed/", "http://www.detaykibris.com/rss"];
+/*rssList = ["https://www.kibrisgazetesi.com/rss", "https://www.yeniduzen.com/rss", "https://cyprus-mail.com/feed/", "http://www.detaykibris.com/rss"];
 
 rssList =  ["https://www.kibrisgazetesi.com/rss"];
 for (r of rssList){
@@ -28,9 +28,11 @@ for (r of rssList){
 
 }
 
+*/
+
 function bak(site){
     (async () => {
-        let haber = await h.parseURL( r );
+        let haber = await h.parseURL("https://www.kibrisgazetesi.com/rss");
         console.log(haber.title);
 
         haber.items.forEach(item => {
