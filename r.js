@@ -32,7 +32,7 @@ for (r of rssList){
 
 function bak(site){
     (async () => {
-        let haber = await h.parseURL("https://www.kibrisgazetesi.com/rss");
+        let haber = await h.parseURL("https://www.yeniduzen.com/rss");
         console.log(haber.title);
 
         haber.items.forEach(item => {
