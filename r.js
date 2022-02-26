@@ -7,7 +7,8 @@ const utf8 = require("utf8");
 app.get("/", (req, res) => {
     res.header("Content-Type", "text/html; charset=utf-8");
     //res.end(don);
-    res.end("hmmms");
+    res.end(h.parseURL("https://cyprus-mail.com/feed/"));
+
 })
 
 
