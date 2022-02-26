@@ -7,14 +7,6 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 
-app.get("/", (req, res) => {
-    res.header("Content-Type", "text/html; charset=utf-8");
-    res.end(don);
-})
-
-
-
-
 
 let h = new haberci();
 
@@ -30,7 +22,9 @@ for (r of rssList){
 
 */
 
-function bak(site){
+bak();
+
+function bak(){
     (async () => {
         let haber = await h.parseURL("https://www.yeniduzen.com/rss");
         console.log(haber.title);
@@ -54,4 +48,10 @@ function temizle(html){
 
 app.listen(PORT, () =>{
     console.log("helüüü " + PORT);
+})
+
+
+app.get("/", (req, res) => {
+    res.header("Content-Type", "text/html; charset=utf-8");
+    res.end(don);
 })
