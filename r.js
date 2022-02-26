@@ -6,7 +6,8 @@ const utf8 = require("utf8");
 
 app.get("/", (req, res) => {
     res.header("Content-Type", "text/html; charset=utf-8");
-    res.end(don);
+    //res.end(don);
+    res.end("hmmms")
 })
 
 
@@ -22,7 +23,7 @@ let don = '';
 rssList = ["https://www.kibrisgazetesi.com/rss", "https://www.yeniduzen.com/rss", "https://cyprus-mail.com/feed/", "http://www.detaykibris.com/rss"];
 
 for (r of rssList){
-    bak(r);
+    //bak(r);
 
 }
 
