@@ -1,7 +1,10 @@
 var express = require("express");
+let haberci = require('rss-parser');
+let striptags = require('striptags');
+
+
 var app = express();
 var PORT = process.env.PORT || 8080;
-const utf8 = require("utf8");
 
 
 app.get("/", (req, res) => {
@@ -11,9 +14,7 @@ app.get("/", (req, res) => {
 
 
 
-let haberci = require('rss-parser');
 
-let striptags = require('striptags');
 
 let h = new haberci();
 
