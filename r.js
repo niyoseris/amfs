@@ -13,6 +13,7 @@ feedz = {
     'Memleket Kıbrıs' : 'https://www.memleketkibris.com/rss',
     'BRTK' : 'http://www.brtk.net/feed/',
     'Detay Kıbrıs' : 'http://www.detaykibris.com/rss',
+    'Ve Kıbrıs' : "https://www.vekibris.com/feed/",
     'Halkın Sesi' : 'http://www.halkinsesikibris.com/rss',
     'In-Cyprus' : 'https://in-cyprus.com/feed/',
     'Havadis' : 'http://www.havadiskibris.com/feed/',
